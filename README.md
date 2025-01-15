@@ -13,4 +13,29 @@
 2025-01-14 14:36:12 | CPU: 20% | Memory: 52% | Disk: 61% | Sent: 125678 bytes | Received: 658901 bytes
 </code>
 </pre>
+## Run the script
+1. Make the Script Executable (Optional): If your script is not already executable:
+           <pre>
+           <code>
+           chmod +x monitor.py
+           </code>
+           </pre>
+2. Install python if it is needed
+           <pre>
+           <code>
+           sudo yum install python3 -y
+           </code>
+           </pre>
+3.Run the script
+           <pre>
+           <code>
+            python3 monitor.py
+           <pre>
+           <code>
+
+
+
+
+
+
 
