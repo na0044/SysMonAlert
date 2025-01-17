@@ -20,6 +20,7 @@ class TestSystemMetrics(unittest.TestCase):
         mock_cpu_percent,
         mock_file,
     ):
+        print("Starting test_log_metrics...") 
         # Mock psutil responses
         mock_cpu_percent.return_value = 90  # Above CPU threshold
         mock_virtual_memory.return_value = type(
